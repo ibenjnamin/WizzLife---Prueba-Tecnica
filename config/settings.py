@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'config.wsgi.application'
 
 DATABASES = {
     'default': dj_database_url.config(
-        default='postgresql://wizzlife_user:mBPOvC6lSGvh9iD9BbCqeXva5OgmHQoz@dpg-d6p2i4f5r7bs73f8ndb0-a/wizzlife_db_12n6'
+        default='postgresql://postgres:123456@localhost:5432/wizzlife_db'
     )
 }
 
