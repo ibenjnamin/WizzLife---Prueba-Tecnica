@@ -27,7 +27,9 @@ SECRET_KEY = 'django-insecure-0u6a90k*8_lmbru($&bk=ep8_6opuax2g!xkr(#86z&rb)=+i%
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
-
+CSRF_TRUSTED_ORIGINS = [
+    "https://wizzlife-prueba-tecnica.onrender.com"
+]
 
 # Application definition
 
