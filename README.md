@@ -30,7 +30,7 @@ API REST para gestión de tareas desarrollada con Django REST Framework, autenti
 
 Clonar el repositorio:
 
-git clone https://github.com/TU_USUARIO/task-api.git
+git clone https://github.com/ibenjnamin/WizzLife---Prueba-Tecnica.git
 
 Entrar al proyecto:
 
@@ -87,10 +87,10 @@ DELETE /tasks/{id}/
 
 ## Estados de tarea
 
-pending  
-in_progress  
-done
+pendiente  
+en_progreso
+completado
 
 ## Autor
 
-Benjamin Becerra
+Benjamin Ismael Becerra Darrouy
