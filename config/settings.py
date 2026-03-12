@@ -77,8 +77,9 @@ WSGI_APPLICATION = 'config.wsgi.application'
 # https://docs.djangoproject.com/en/6.0/ref/settings/#databases
 
 DATABASES = {
-    'default': dj_database_url.config(
-        default='postgresql://postgres:123456@localhost:5432/wizzlife_db'
+    'default': dj_database_url.parse(
+        os.environ.get('DATABASE_URL', 'postgresql://wizzlife_user:mBPOvC6lSGvh9iD9BbCqeXva5OgmHQoz@dpg-d6p2i4f5r7bs73f8ndb0-a/wizzlife_db_12n6'),
+        conn_max_age=600,
     )
 }
 
