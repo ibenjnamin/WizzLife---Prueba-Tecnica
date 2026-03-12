@@ -52,6 +52,12 @@ Servidor disponible en:
 
 http://localhost:8000
 
+# Link para seguir criterios de la prueba y Link para autenticarse
+
+https://wizzlife-prueba-tecnica.onrender.com/{tasks/signin/signup}/ (Pruebas)
+
+https://wizzlife-prueba-tecnica.onrender.com/api-auth/login/ (Login despues de entregar token)
+
 ## Endpoints
 
 ### Autenticación
