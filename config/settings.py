@@ -79,9 +79,15 @@ WSGI_APPLICATION = 'config.wsgi.application'
 # https://docs.djangoproject.com/en/6.0/ref/settings/#databases
 
 DATABASES = {
-    'default': dj_database_url.config(
-        default='postgresql://postgres:123456@localhost:5432/wizzlife_db'
-    )
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'wizzlife',
+        'USER': 'wizzlife_user',
+        'PASSWORD': 'GXN9YXsa186euvYE6Wpo4pSrUtFnIncU',
+        'HOST':
+       'dpg-d7skd2hkh4rs73956830-a.oregon-postgres.render.com',
+        'PORT': '5432',
+    }
 }
 
 # Password validation
